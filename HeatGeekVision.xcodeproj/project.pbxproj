@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5271A1D2C1CF2BA00F22930 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E5271A1C2C1CF2BA00F22930 /* RealityKitContent */; };
+		E5271A1F2C1CF2BA00F22930 /* HeatGeekVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */; };
+		E5271A212C1CF2BA00F22930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A202C1CF2BA00F22930 /* ContentView.swift */; };
+		E5271A232C1CF2BA00F22930 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */; };
+		E5271A252C1CF2BB00F22930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5271A242C1CF2BB00F22930 /* Assets.xcassets */; };
+		E5271A282C1CF2BB00F22930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5271A272C1CF2BB00F22930 /* Preview Assets.xcassets */; };
+		E5271A332C1CF2BB00F22930 /* HeatGeekVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A322C1CF2BB00F22930 /* HeatGeekVisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5271A2F2C1CF2BB00F22930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5271A0F2C1CF2BA00F22930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5271A162C1CF2BA00F22930;
+			remoteInfo = HeatGeekVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5271A172C1CF2BA00F22930 /* HeatGeekVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatGeekVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5271A1B2C1CF2BA00F22930 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatGeekVisionApp.swift; sourceTree = "<group>"; };
+		E5271A202C1CF2BA00F22930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		E5271A242C1CF2BB00F22930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5271A272C1CF2BB00F22930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5271A292C1CF2BB00F22930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5271A2E2C1CF2BB00F22930 /* HeatGeekVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatGeekVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5271A322C1CF2BB00F22930 /* HeatGeekVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatGeekVisionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5271A142C1CF2BA00F22930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5271A1D2C1CF2BA00F22930 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5271A2B2C1CF2BB00F22930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5271A0E2C1CF2BA00F22930 = {
+			isa = PBXGroup;
+			children = (
+				E5271A192C1CF2BA00F22930 /* HeatGeekVision */,
+				E5271A1A2C1CF2BA00F22930 /* Packages */,
+				E5271A312C1CF2BB00F22930 /* HeatGeekVisionTests */,
+				E5271A182C1CF2BA00F22930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5271A182C1CF2BA00F22930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5271A172C1CF2BA00F22930 /* HeatGeekVision.app */,
+				E5271A2E2C1CF2BB00F22930 /* HeatGeekVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5271A192C1CF2BA00F22930 /* HeatGeekVision */ = {
+			isa = PBXGroup;
+			children = (
+				E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */,
+				E5271A202C1CF2BA00F22930 /* ContentView.swift */,
+				E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */,
+				E5271A242C1CF2BB00F22930 /* Assets.xcassets */,
+				E5271A292C1CF2BB00F22930 /* Info.plist */,
+				E5271A262C1CF2BB00F22930 /* Preview Content */,
+			);
+			path = HeatGeekVision;
+			sourceTree = "<group>";
+		};
+		E5271A1A2C1CF2BA00F22930 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E5271A1B2C1CF2BA00F22930 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		E5271A262C1CF2BB00F22930 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5271A272C1CF2BB00F22930 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5271A312C1CF2BB00F22930 /* HeatGeekVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5271A322C1CF2BB00F22930 /* HeatGeekVisionTests.swift */,
+			);
+			path = HeatGeekVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5271A162C1CF2BA00F22930 /* HeatGeekVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5271A362C1CF2BB00F22930 /* Build configuration list for PBXNativeTarget "HeatGeekVision" */;
+			buildPhases = (
+				E5271A132C1CF2BA00F22930 /* Sources */,
+				E5271A142C1CF2BA00F22930 /* Frameworks */,
+				E5271A152C1CF2BA00F22930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatGeekVision;
+			packageProductDependencies = (
+				E5271A1C2C1CF2BA00F22930 /* RealityKitContent */,
+			);
+			productName = HeatGeekVision;
+			productReference = E5271A172C1CF2BA00F22930 /* HeatGeekVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5271A2D2C1CF2BB00F22930 /* HeatGeekVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5271A392C1CF2BB00F22930 /* Build configuration list for PBXNativeTarget "HeatGeekVisionTests" */;
+			buildPhases = (
+				E5271A2A2C1CF2BB00F22930 /* Sources */,
+				E5271A2B2C1CF2BB00F22930 /* Frameworks */,
+				E5271A2C2C1CF2BB00F22930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5271A302C1CF2BB00F22930 /* PBXTargetDependency */,
+			);
+			name = HeatGeekVisionTests;
+			productName = HeatGeekVisionTests;
+			productReference = E5271A2E2C1CF2BB00F22930 /* HeatGeekVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5271A0F2C1CF2BA00F22930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E5271A162C1CF2BA00F22930 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E5271A2D2C1CF2BB00F22930 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E5271A162C1CF2BA00F22930;
+					};
+				};
+			};
+			buildConfigurationList = E5271A122C1CF2BA00F22930 /* Build configuration list for PBXProject "HeatGeekVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5271A0E2C1CF2BA00F22930;
+			productRefGroup = E5271A182C1CF2BA00F22930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5271A162C1CF2BA00F22930 /* HeatGeekVision */,
+				E5271A2D2C1CF2BB00F22930 /* HeatGeekVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5271A152C1CF2BA00F22930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5271A282C1CF2BB00F22930 /* Preview Assets.xcassets in Resources */,
+				E5271A252C1CF2BB00F22930 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5271A2C2C1CF2BB00F22930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5271A132C1CF2BA00F22930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5271A212C1CF2BA00F22930 /* ContentView.swift in Sources */,
+				E5271A1F2C1CF2BA00F22930 /* HeatGeekVisionApp.swift in Sources */,
+				E5271A232C1CF2BA00F22930 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5271A2A2C1CF2BB00F22930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5271A332C1CF2BB00F22930 /* HeatGeekVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5271A302C1CF2BB00F22930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5271A162C1CF2BA00F22930 /* HeatGeekVision */;
+			targetProxy = E5271A2F2C1CF2BB00F22930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5271A342C1CF2BB00F22930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		E5271A352C1CF2BB00F22930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		E5271A372C1CF2BB00F22930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatGeekVision/Preview Content\"";
+				DEVELOPMENT_TEAM = V5GJ6W77KT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatgeek.vision.HeatGeekVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		E5271A382C1CF2BB00F22930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatGeekVision/Preview Content\"";
+				DEVELOPMENT_TEAM = V5GJ6W77KT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatgeek.vision.HeatGeekVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		E5271A3A2C1CF2BB00F22930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5GJ6W77KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatgeek.vision.HeatGeekVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatGeekVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeatGeekVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		E5271A3B2C1CF2BB00F22930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5GJ6W77KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heatgeek.vision.HeatGeekVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatGeekVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeatGeekVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5271A122C1CF2BA00F22930 /* Build configuration list for PBXProject "HeatGeekVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5271A342C1CF2BB00F22930 /* Debug */,
+				E5271A352C1CF2BB00F22930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5271A362C1CF2BB00F22930 /* Build configuration list for PBXNativeTarget "HeatGeekVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5271A372C1CF2BB00F22930 /* Debug */,
+				E5271A382C1CF2BB00F22930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5271A392C1CF2BB00F22930 /* Build configuration list for PBXNativeTarget "HeatGeekVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5271A3A2C1CF2BB00F22930 /* Debug */,
+				E5271A3B2C1CF2BB00F22930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5271A1C2C1CF2BA00F22930 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E5271A0F2C1CF2BA00F22930 /* Project object */;
+}
