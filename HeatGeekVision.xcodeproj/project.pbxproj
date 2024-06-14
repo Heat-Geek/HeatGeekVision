@@ -11,9 +11,9 @@
 		E5271A1F2C1CF2BA00F22930 /* HeatGeekVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */; };
 		E5271A212C1CF2BA00F22930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A202C1CF2BA00F22930 /* ContentView.swift */; };
 		E5271A232C1CF2BA00F22930 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */; };
-		E5271A252C1CF2BB00F22930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5271A242C1CF2BB00F22930 /* Assets.xcassets */; };
 		E5271A282C1CF2BB00F22930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5271A272C1CF2BB00F22930 /* Preview Assets.xcassets */; };
 		E5271A332C1CF2BB00F22930 /* HeatGeekVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5271A322C1CF2BB00F22930 /* HeatGeekVisionTests.swift */; };
+		E5271A402C1CF89F00F22930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5271A3F2C1CF89F00F22930 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +32,13 @@
 		E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatGeekVisionApp.swift; sourceTree = "<group>"; };
 		E5271A202C1CF2BA00F22930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		E5271A242C1CF2BB00F22930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5271A272C1CF2BB00F22930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5271A292C1CF2BB00F22930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5271A2E2C1CF2BB00F22930 /* HeatGeekVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatGeekVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5271A322C1CF2BB00F22930 /* HeatGeekVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatGeekVisionTests.swift; sourceTree = "<group>"; };
+		E5271A3D2C1CF72900F22930 /* radiator_one.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = radiator_one.usdz; sourceTree = "<group>"; };
+		E5271A3F2C1CF89F00F22930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5271A412C1CF96100F22930 /* 12KW-unit-on-feet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "12KW-unit-on-feet.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +82,12 @@
 		E5271A192C1CF2BA00F22930 /* HeatGeekVision */ = {
 			isa = PBXGroup;
 			children = (
+				E5271A3F2C1CF89F00F22930 /* Assets.xcassets */,
 				E5271A1E2C1CF2BA00F22930 /* HeatGeekVisionApp.swift */,
 				E5271A202C1CF2BA00F22930 /* ContentView.swift */,
 				E5271A222C1CF2BA00F22930 /* ImmersiveView.swift */,
-				E5271A242C1CF2BB00F22930 /* Assets.xcassets */,
+				E5271A412C1CF96100F22930 /* 12KW-unit-on-feet.usdz */,
+				E5271A3D2C1CF72900F22930 /* radiator_one.usdz */,
 				E5271A292C1CF2BB00F22930 /* Info.plist */,
 				E5271A262C1CF2BB00F22930 /* Preview Content */,
 			);
@@ -198,8 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5271A402C1CF89F00F22930 /* Assets.xcassets in Resources */,
 				E5271A282C1CF2BB00F22930 /* Preview Assets.xcassets in Resources */,
-				E5271A252C1CF2BB00F22930 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
